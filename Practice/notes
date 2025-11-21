@@ -1,0 +1,67 @@
+//Types of Modifiers :
+//private 
+it can only be acess within the class they are defined
+//protected
+it can be acess within the class and its subclasses
+//public    
+it can be acess from anywhere
+//default
+it can be acess within the same package
+it is the default modifier if no access modifier is specified
+//class
+a class can be declared as public or default
+it represent the set of  properties and methods that are common to all objects of one type
+a classs is a blueprint of an object
+//object
+an object can be declared as public or default 
+//interface
+an interface can be declared as public or default
+//method
+a method can be declared as public, protected, private or default
+//variable
+a variable can be declared as public, protected, private or default
+//constructor
+a constructor can be declared as public, protected, private or default  
+//polymorphism
+polymorphism means the ability to take many forms
+it is the ability of a method to do different things based on the object that it is acting upon
+//inheritance
+inheritance is a mechanism where a new class is derived from an existing class
+//method overloading
+method overloading is a feature that allows a class to have more than one method with the same name, but different parameters
+//method overriding     
+method overriding is a feature that allows a subclass to provide a specific implementation of a method that is already defined in its superclass
+//dynamic method dispatch
+dynamic method dispatch is a mechanism that allows a call to an overridden method to be resolved at runtime
+//regular method
+a regular method is a method that is defined in a class and can be called on an object
+//concrete method
+a concrete method is a method that has a body and can be executed
+//types ofpolymorphism
+//1)compile time polymorphism or static polymorphism or also known as method overloading
+it is achieved through method overloading and operator overloading.
+this happens when the same method in the sanme class having the same name but different parameters
+//2)run time polymorphism also known as dynamic method dispatch
+it is achieved through method overriding
+it is a process in which a function call to an overridden method and you can aso achieve this only through inheritance
+
+//Data hiding 
+it is a mechanism of restricting access to some of the object's components
+//data binding(encapsulation)
+it is a process that binds the data members and member functions together
+//it allows us to focus of what an object does rather than how does
+AN abstract class is a class that we can not instatiate and can only extend by subclasses
+Abstract class cna have both abstract and non abstract methods
+An abstract method is a method that is declared without an implementation
+An abstract method must be implemented by the subclass of the abstract class
+Ex/ abstract class Animal{
+    abstract void sound();
+    void sleep(){
+        System.out.println("Zzz");
+    }
+}   
+//an abstract classs ony can have only abstract methods and it does not have a body
+//an abstract class can not be final because we can not extend a final class
+//an interface is a blueprint of a class.it contains only abstract methods and constants
+//a class must implement an interface to provide the implementation of the methods declared in the interface
+default or static methods 
